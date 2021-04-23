@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    /* color:rgb(0, 255, 106);
+    display: flex;
+    justify-content: space-between;
+    text-align: center; */
+}
+
+.planets {
+    background-color: black;
+    color:rgb(0, 255, 106);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+#welcomeMsg {
+    align-self: flex-end;
+}
+
+#mars {
+    margin-top: 100px;
+}
+
+#jupiter {
+    margin-top: 100px;
+}
+
+#alien {
+    display: block;
+    margin: auto;
+}
