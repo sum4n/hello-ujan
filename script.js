@@ -7,9 +7,16 @@ function welcomeMessage() {
     //document.body.style.backgroundImage = "url('img/ujan.jpg')";
     // var audio = new Audio("/sound/alien.ogg");
     // audio.play();
+    //var x = document.getElementById("myAudio");
+    //x.muted = false;
+    //x.play();
+    //x.load();
+    playM();
+}
+window.onload = welcomeMessage;
+
+function playM() {
     var x = document.getElementById("myAudio");
     x.muted = false;
     x.play();
-    //x.load();
 }
-window.onload = welcomeMessage;
