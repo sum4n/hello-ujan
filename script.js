@@ -8,7 +8,8 @@ function welcomeMessage() {
     // var audio = new Audio("/sound/alien.ogg");
     // audio.play();
     var x = document.getElementById("myAudio");
-    x.play();
+    x.autoplay = true;
+    //x.load();
 }
 window.onload = welcomeMessage;
 console.log(welcomeMessage);
