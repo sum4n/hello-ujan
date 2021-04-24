@@ -5,8 +5,10 @@ function welcomeMessage() {
     document.querySelector("#jupiter").src = "img/jupiter2.jpg";
     document.querySelector("#alien").src = "img/alien.png";
     //document.body.style.backgroundImage = "url('img/ujan.jpg')";
-    var audio = new Audio("/sound/alien.ogg");
-    audio.play();
+    // var audio = new Audio("/sound/alien.ogg");
+    // audio.play();
+    var x = document.getElementById("myAudio");
+    x.play();
 }
 window.onload = welcomeMessage;
 console.log(welcomeMessage);
